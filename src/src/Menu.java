@@ -18,6 +18,7 @@ public class Menu{
             Scanner clavier = new Scanner(System.in);
 
             System.out.print("Quel est votre classe? : ");
+            
             type = clavier.nextLine();
             Personnage personnage;
             if(type.equals("g"))//Si le joueur saisit "g", il selectionne la classe "guerrier"
