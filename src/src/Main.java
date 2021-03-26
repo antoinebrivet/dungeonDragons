@@ -3,8 +3,20 @@ package src;
 public class Main {
 
     public static void main(String[] args) {
+
+        Plateau board = new Plateau();
+        System.out.println(board.getPositionJoueur());
+
+
+
+
+
+
+
+
+
 	// write your code here
-        Guerrier warrior = new Guerrier(); // invocation constructeur
+     /*   Guerrier warrior = new Guerrier(); // invocation constructeur
         Guerrier fantassin = new Guerrier("Pepito");
         Guerrier archer = new Guerrier("Gontran");
 
@@ -23,6 +35,6 @@ public class Main {
         System.out.println(sorciere.name);
 
         System.out.println(home);
-
+*/
     }
 }

@@ -1,40 +1,30 @@
-/*package src;
+package src;
 
-public class Plateau { //début de la classe
-    int n;// deux attributs n et t
-    int j;
+public class Plateau {
+    //attributs
+    private int nombreCases ;
+    private int positionJoueur;
 
-    public Plateau (){// le constructeur
-      n = a ;//n prend la valeur " a "
-      t = new int[n];//on réserve la place pour le plateau t
-      for (int i=0; i<n; i++) { // remplissage du plateau
-          t[i] = i+1 ;
-      }
-    } // fin du constructeur
+    //constructeurs : initialiser les attributs
+    public Plateau(){
+       this.nombreCases  = 64;
+       this.positionJoueur = 1;
 
-
-    void affiche() { // Affichage de l'objet
-    System.out.println("Affichage des éléments");
-    for (int i = 0; i < n; i++){
-        System.out.print(t[i]+" * ");
-        }
-    System.out.println("");
-        }
-
-    int inferieurs(int p) {
-        int compteur = 0 ;
-        for (int i=0; i < n; i++) {
-            if (t[i]<p) compteur++;
-        }
-        return compteur;
+    }
+    //Méthodes
+    public void printPositionJoueur() {
+        System.out.println("Le joueur est à la position :" + "" + positionJoueur + "/64");
     }
 
-} // fin de la classe
+    //Getters/Setters
 
-//Désormais, on doit ajouter les instructions.
-//On va demander aux objets d'executer les méthodes
-
-public class ProgObject{
+    public int getPositionJoueur() {
+        return positionJoueur;
+    }
+    public void setPositionJoueur(int newPositionJoueur) {
+        this.positionJoueur = newPositionJoueur;
+    }
 
 }
-*/
+
+
