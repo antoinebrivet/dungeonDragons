@@ -6,6 +6,14 @@ public class Main {
 
         Plateau board = new Plateau();
         System.out.println(board.getPositionJoueur());
+        board.printPositionJoueur();
+
+        Die de = new Die();
+        System.out.println(de.getVisibleFace());
+        de.printFace();
+
+        Jeu partie = new Jeu();
+        Jeu.display();
 
 
 
@@ -37,4 +45,5 @@ public class Main {
         System.out.println(home);
 */
     }
+
 }

@@ -9,7 +9,6 @@ public class Plateau {
     public Plateau(){
        this.nombreCases  = 64;
        this.positionJoueur = 1;
-
     }
     //Méthodes
     public void printPositionJoueur() {
