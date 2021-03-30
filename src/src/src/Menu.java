@@ -3,13 +3,13 @@ package src;
 import java.util.Scanner;
 
 public class Menu{
-    public Menu(){
 
+    public void lancerMenu(){
             String type;
             String nom;
 
 
-            int startGame = 1;
+            //int startGame = 1;
             //int doNotStartGame = 2;
             //int Guerrier = 3;
             //int Magicien = 4;
@@ -46,7 +46,11 @@ public class Menu{
         if (clavier.hasNext(String.valueOf(1))){
             System.out.println("Bienvenue");
 
+            Plateau plateau = new Plateau();//Créer un objet à partir de la classe.
+            plateau.start(personnage);
+
         }}}
+
 
             /*
             //Option pour démarrer la partie

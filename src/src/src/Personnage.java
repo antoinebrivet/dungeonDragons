@@ -10,4 +10,11 @@ public class Personnage {
         this.attack=attack;
         this.lifeLevel=lifeLevel;
     }
+
+    /*public String toString(){
+        return "Vous voilà face à un terrible guerrier, son nom fait trembler tout le pays"
+                + this.name
+                + "Nous savons qu'il est puissant et coriace"
+                + this.attack
+                + this.lifeLevel;*/
 }

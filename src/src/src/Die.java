@@ -1,5 +1,6 @@
 package src;
 
+
 public class Die {
     //attributs
     private int nbFaces;//nombre de faces du dé
@@ -11,10 +12,10 @@ public class Die {
         visibleFace = (int)(Math.random()*nbFaces)+1;
     }
 
-    //Méthodes
+    /*Méthodes
     public void printFace(){
         System.out.print("Avancez de" +" "+ visibleFace+" "+"cases...");
-    }
+    }*/
 
     //Getters/Setters
 
@@ -25,6 +26,9 @@ public class Die {
     public void setVisibleFace(int visibleFace) {
         this.visibleFace = visibleFace;
     }
+
+
 }
+
 
 
