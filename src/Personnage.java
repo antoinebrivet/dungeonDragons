@@ -1,20 +1,35 @@
 package src;//Création d'une classe personnage
 
-public class Personnage {
+    public abstract class Personnage {
+        String name;
+        String weapon;
+        int attack;
+        int lifeLevel;
+
+        @Override
+        public String toString() {
+            return "Personnage{" +
+                    "name='" + name + '\'' +
+                    ", weapon='" + weapon + '\'' +
+                    ", attack=" + attack +
+                    ", lifeLevel=" + lifeLevel +
+                    '}';
+        }
+    }
+/*public class Personnage {
     String name;
+    String weapon;
     int attack;
     int lifeLevel;
 
-    public Personnage(String name, int attack, int lifeLevel){
+
+    public Personnage(String name, String weapon, int attack, int lifeLevel){
         this.name=name;
+        this.weapon=weapon;
         this.attack=attack;
         this.lifeLevel=lifeLevel;
     }
 
-    /*public String toString(){
-        return "Vous voilà face à un terrible guerrier, son nom fait trembler tout le pays"
-                + this.name
-                + "Nous savons qu'il est puissant et coriace"
-                + this.attack
-                + this.lifeLevel;*/
-}
+
+
+}*/

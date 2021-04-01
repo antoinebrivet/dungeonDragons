@@ -1,0 +1,11 @@
+
+
+public String toString(){
+        return "Voici un magicien aux pouvoirs incommensurables. "
+                + this.name
+                + "Ceux-ci lui sont conférés par son arme de prédilection:"
+                + this.weapon
+                + "Son attaque déchaine les éléments et ses pouvoirs lui permettent de resister à bon nombre de ses ennemis."
+                + this.attack
+                + this.lifeLevel;
+    }

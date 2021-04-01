@@ -8,6 +8,17 @@ public class Main {
         Menu menu = new Menu();
         menu.lancerMenu();
 
+        Personnage magicien = new Magicien();
+        System.out.println(magicien.toString());
+        //magicien.name="Harry";
+        //System.out.println(magicien.name);
+
+        Personnage guerrier = new Guerrier();
+        System.out.println(guerrier.toString());
+
+        //System.out.println(magicien.getPresentation);
+        //System.out.println(guerrier.getPresentation);
+
 
 
 
