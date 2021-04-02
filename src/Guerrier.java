@@ -2,15 +2,41 @@ package src;
 
 public class Guerrier extends Personnage{
 
+    private int strenghtMin ;
+    private int strenghtMax ;
+    private int randomStrenght;
+
+    private int lifeMin ;
+    private int lifeMax ;
+    private int randomLife;
+
     public Guerrier(){
-        String name;
-        String weapon;
-        int attack;
-        int lifeLevel;
+        super(
+        strenghtMin = 5;
+        strenghtMax = 10;
+        int randomStrenght = strenghtMin + (int)(Math.random() * ((strenghtMax - strenghtMin) + 1)
+        );
+
+
+        lifeMin=5;
+        lifeMax=10;
+        int randomLife = lifeMin + (int)(Math.random()* ((lifeMax - lifeMin)+1));
+    }
+
+    public Guerrier(String name, String weapon, int attack, int lifeLevel){
+        super (name, weapon, attack, lifeLevel);
 
     }
 
+    public Guerrier () {
+
+        super("Inconnu", "Arme Inconnue", 5,5);
+    }
+
+
+
     public String toString(){
+
         return super.toString() + "guerrier";
 
     }
@@ -18,24 +44,7 @@ public class Guerrier extends Personnage{
 
 
 
-// Attention, j'instancie déjà mes nouveaux guerriers dans la classe Menu
 
 
 
-/*public class Guerrier extends Personnage { //définition d'une classe
 
-// Même fonctionnement que pour les magiciens, pour les instantiations
-
-   public Guerrier(){
-      super("Pepito", "Epee", 5, 5);
-   }
-
-   public String toString(){
-       return " Bienvenue, jeune guerrier. Quel est ton nom? "
-               + this.name
-               + "Ce lieu est rempli de danger. Prends cette Arme!!! "
-               + this.weapon
-               + "Avec une arme aussi puissante, tes ennemis pourraient bien finir en kit. "
-               + this.attack
-               + this.lifeLevel;
-}}*/

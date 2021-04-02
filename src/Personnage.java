@@ -15,12 +15,6 @@ package src;//Création d'une classe personnage
                     ", lifeLevel=" + lifeLevel +
                     '}';
         }
-    }
-/*public class Personnage {
-    String name;
-    String weapon;
-    int attack;
-    int lifeLevel;
 
 
     public Personnage(String name, String weapon, int attack, int lifeLevel){
@@ -32,4 +26,4 @@ package src;//Création d'une classe personnage
 
 
 
-}*/
+}

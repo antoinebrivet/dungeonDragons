@@ -9,12 +9,6 @@ public class Menu{
             String nom;
 
 
-            //int startGame = 1;
-            //int doNotStartGame = 2;
-            //int Guerrier = 3;
-            //int Magicien = 4;
-
-
             Scanner clavier = new Scanner(System.in);
 
             System.out.print("Quel est votre classe? : ");
@@ -51,30 +45,3 @@ public class Menu{
 
         }}}
 
-
-            /*
-            //Option pour démarrer la partie
-
-
-            System.out.println("Souhaitez-vous démarrez une partie?");
-            if (1) {
-                System.out.println("C'est parti!!!");
-                System.out.println("Quel est votre nom? : ");
-                nom = clavier.nextLine();
-                System.out.println("Etes-vous un guerrier ou un magicien? ");
-            if (3){System.out.println("Vous serez donc un guerrier...");
-            } else if ({System.out.println("Vous êtes magicien...");
-            } else (2) {
-                System.out.println("Voulez-vous quitter le jeu? ");
-            }
-
-
-        // fermer les ressources
-        {
-            return;
-        } else {
-            clavier.close();
-        }
-    }
-}
-*/

@@ -44,7 +44,7 @@ public class Plateau {
 
         String reponsePlayer = clavier.nextLine();
         if (reponsePlayer.equals("ok")){
-            System.out.println("Ok! Une nouvelle aventure va commencer. Tu n'as pas froid aux yeux...");
+            System.out.println("Ok! Une nouvelle aventure va commencer...");
             positionJoueur = 1;//réinitialiser la position initiale du joueur
             jouer();
 
